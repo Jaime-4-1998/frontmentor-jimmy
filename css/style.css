@@ -188,6 +188,10 @@ html::-webkit-scrollbar-thumb {
         text-decoration: none; 
         font-family:var(--barlow);
         cursor: pointer;
+        color: #000;
+    }
+    .moblie__nav__menu__links__link:hover{
+        color: #000;
     }
     .contact__mobile{
         font-family: var(--fraunces);
@@ -482,6 +486,13 @@ footer{
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
+}
+.linker__foot{
+    text-decoration: none;
+    color: var(--dark-desaturated-cyan);
+}
+.linker__foot:hover{
+    color: var(--dark-desaturated-cyan);
 }
 /* ==========
     atribution
